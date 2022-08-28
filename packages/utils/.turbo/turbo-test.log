@@ -1,0 +1,15 @@
+[35mutils:test[0m: cache hit, replaying output [2m4d1cda6d482378b8[0m
+[35mutils:test: [0m
+[35mutils:test: [0m> utils@1.0.0 test /Users/cxr/code/tests/learn-turbo/packages/utils
+[35mutils:test: [0m> vitest run
+[35mutils:test: [0m
+[35mutils:test: [0m
+[35mutils:test: [0m RUN  v0.22.1 /Users/cxr/code/tests/learn-turbo/packages/utils
+[35mutils:test: [0m
+[35mutils:test: [0m ✓ index.spec.ts  (1 test) 1ms
+[35mutils:test: [0m
+[35mutils:test: [0mTest Files  1 passed (1)
+[35mutils:test: [0m     Tests  1 passed (1)
+[35mutils:test: [0m  Start at  20:11:17
+[35mutils:test: [0m  Duration  838ms (transform 372ms, setup 0ms, collect 71ms, tests 1ms)
+[35mutils:test: [0m
