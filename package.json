@@ -1,0 +1,17 @@
+{
+  "name": "learn-turbo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "turbo run test",
+    "build": "turbo run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "^1.4.3",
+    "vitest": "^0.22.1"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1,
+    "total": 3,
+    "workspacePrefix": "/Users/cxr/code/tests/learn-turbo"
+  },
+  "1 info pnpm": {
+    "err": {
+      "name": "Error",
+      "message": "web@0.0.0 test: `vitest run`\nExit status 1",
+      "code": "ELIFECYCLE",
+      "stack": "Error: web@0.0.0 test: `vitest run`\nExit status 1\n    at EventEmitter.<anonymous> (/opt/homebrew/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:105736:20)\n    at EventEmitter.emit (node:events:527:28)\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:92297:18)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  },
+  "2 error pnpm": {
+    "errno": 1,
+    "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+    "pkgid": "web@0.0.0",
+    "stage": "test",
+    "script": "vitest run",
+    "pkgname": "web",
+    "prefix": "/Users/cxr/code/tests/learn-turbo/packages/web",
+    "err": {
+      "name": "pnpm",
+      "message": "web@0.0.0 test: `vitest run`\nExit status 1",
+      "code": "ERR_PNPM_RECURSIVE_RUN_FIRST_FAIL",
+      "stack": "Error: web@0.0.0 test: `vitest run`\nExit status 1\n    at EventEmitter.<anonymous> (/opt/homebrew/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:105736:20)\n    at EventEmitter.emit (node:events:527:28)\n    at ChildProcess.<anonymous> (/opt/homebrew/Cellar/pnpm/6.32.4/libexec/lib/node_modules/pnpm/dist/pnpm.cjs:92297:18)\n    at ChildProcess.emit (node:events:527:28)\n    at maybeClose (node:internal/child_process:1092:16)\n    at Process.ChildProcess._handle.onexit (node:internal/child_process:302:5)"
+    }
+  }
+}

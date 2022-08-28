@@ -1,0 +1,19 @@
+{
+	"$schema": "https://turborepo.org/schema.json",
+	"pipeline": {
+		// 先构建 utils  然后在构建 web
+		"build": {
+			"dependsOn": [
+				"^build"
+			],
+			"outputs": [
+				"cxr/**"
+			]
+		},
+		"test": {
+			"dependsOn": [
+				"build"
+			]
+		}
+	}
+}
